@@ -1,0 +1,13 @@
+@import "./reset.css";
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: min(100%-30px, 1080);
+    margin-inline: auto;
+}
+
