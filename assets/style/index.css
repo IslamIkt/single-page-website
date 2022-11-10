@@ -11,3 +11,10 @@
     margin-inline: auto;
 }
 
+header{
+    width: 100%;
+    height: 112px;
+    background-color: #BAD9B5;
+    line-height: 112px;
+    text-align: center;
+}
