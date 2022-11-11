@@ -43,7 +43,7 @@ main{
 .banner{
     background: #fff url(../img/cars.jpg) center center / cover no-repeat fixed;
     width: 100%;
-    height: calc(100vh - 234px);
+    height: calc(100vh - 82px); 
 }
 
 .banner-text{
@@ -52,7 +52,7 @@ main{
     background-color: rgba(0,0,0, .3); 
     font-size: 60px;
     width: 100%;
-    height: calc(100vh - 234px);
+    height: calc(100vh - 82px);
 }
 
 .info{
@@ -76,6 +76,10 @@ main{
     margin-left: 50px;
 }
 
+.pc-stats, .text{
+    margin-top: 25px;
+}
+
 
 /*----------------------------------*/
 /*              footer              */
@@ -91,6 +95,11 @@ footer{
 footer div ul li{
     color: #000;
     display: inline;
+    font-size: 20px;
+}
+
+footer div ul li + li{
+    margin-left: 10px;
 }
 
 footer p{
@@ -116,7 +125,7 @@ footer div p, footer div ul{
     bottom: 30px;
     border-radius: 50%;
     position: fixed;
-    background-color: #BAD9B5;
+    background-color: #a6c4a2;
     line-height: 60px;
     text-align: center;
     font-size: 20px;
