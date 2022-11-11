@@ -5,6 +5,9 @@
 /*         General classes          */
 /*----------------------------------*/
 
+body{
+    background-color: #e7f5e5;
+}
 
 .center{
     display: flex;
@@ -29,6 +32,8 @@ header{
     text-align: center;
     background-color: #BAD9B5;
 }
+
+/*found online*/
 
 .wave {
     animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
