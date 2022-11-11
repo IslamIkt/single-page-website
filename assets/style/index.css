@@ -1,5 +1,11 @@
 @import "./reset.css";
 
+
+/*----------------------------------*/
+/*         General classes          */
+/*----------------------------------*/
+
+
 .center{
     display: flex;
     justify-content: center;
@@ -24,9 +30,35 @@ header{
     background-color: #BAD9B5;
 }
 
+
+/*----------------------------------*/
+/*               body               */
+/*----------------------------------*/
+
+
 main{
     min-height: calc(100vh - 246px);
 }
+
+.banner{
+    background: #fff url(../img/cars.jpg) center center / cover no-repeat fixed;
+    width: 100%;
+    height: calc(100vh - 234px);
+}
+
+.banner-text{
+    position: relative;
+    color: #fff;
+    background-color: rgba(0,0,0, .3); 
+    font-size: 60px;
+    width: 100%;
+    height: calc(100vh - 234px);
+}
+
+
+/*----------------------------------*/
+/*              footer              */
+/*----------------------------------*/
 
 footer{
     width: 100%;
